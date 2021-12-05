@@ -1,0 +1,118 @@
+:root {
+    --navalDark: rgb(30, 64, 175);
+    --navalLight: rgb(37, 99, 235);
+    --lightGray: rgb(243, 244, 246);
+}
+
+a.leaflet-control-zoom-in,
+a.leaflet-control-zoom-out {
+    background-color: var(--navalLight);
+    color: var(--lightGray);
+}
+
+a.leaflet-control-zoom-in:hover,
+a.leaflet-control-zoom-out:hover {
+    background-color: var(--navalDark);
+    color: var(--lightGray);
+}
+
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+    border: none;
+}
+
+.leaflet-popup-content {
+    margin: 0;
+    width: 512px;
+}
+
+#map>div.leaflet-pane.leaflet-map-pane>div.leaflet-pane.leaflet-popup-pane>div>div.leaflet-popup-tip-container {
+    left: calc(50% + 1px);
+}
+
+#map>div.leaflet-pane.leaflet-map-pane>div.leaflet-pane.leaflet-popup-pane>div>a {
+    justify-content: center;
+    text-align: center;
+    color: var(--navalDark);
+    font-size: 1.5rem;
+    top: 0.25rem;
+    right: 0.45rem;
+}
+
+#map>div.leaflet-control-container>div.leaflet-bottom.leaflet-left>div.leaflet-control-scale.leaflet-control {
+    left: 15rem;
+    margin: 1rem;
+}
+
+#map>div.leaflet-control-container>div.leaflet-bottom.leaflet-left>div.leaflet-control-scale.leaflet-control>* {
+    border-color: var(--navalDark);
+    color: var(--navalDark);
+}
+
+#map>div.leaflet-control-container>div.leaflet-top.leaflet-right>div {
+    background-color: var(--navalLight);
+    color: var(--lightGray);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#map>div.leaflet-control-container>div.leaflet-top.leaflet-right>div>section {
+    width: 12rem;
+}
+
+#map>div.leaflet-control-container>div.leaflet-top.leaflet-right>div>section>div.leaflet-control-layers-base {
+    display: flex column;
+    justify-content: center;
+    align-items: center;
+}
+
+#map>div.leaflet-control-container>div.leaflet-top.leaflet-right>div>section>div.leaflet-control-layers-base>label {
+    margin: 0 1rem;
+    position: relative;
+}
+
+#map>div.leaflet-control-container>div.leaflet-top.leaflet-right>div>section>div.leaflet-control-layers-base>label:hover > span::before {
+    border: .5rem solid var(--lightGray);
+    margin-right: .5rem;
+}
+
+#map>div.leaflet-control-container>div.leaflet-top.leaflet-right>div>section>div.leaflet-control-layers-base>label>div>input {
+    position: absolute;
+	opacity: 0;
+	visibility: hidden;
+}
+
+#map>div.leaflet-control-container>div.leaflet-top.leaflet-right>div>section>div.leaflet-control-layers-base>label>div>input:checked + span::before {
+    margin-right: 1.5rem;
+    border: 0.5rem solid;
+    background: var(--navalLight);
+    width: 1.33rem;
+    height: 1.33rem;
+}
+
+#map>div.leaflet-control-container>div.leaflet-top.leaflet-right>div>section>div.leaflet-control-layers-base>label>div>span {
+    display: flex;
+    align-items: center;
+    padding: 0.55rem 0;
+    color: var(--lightGray);
+    font-size: .7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.25s linear;
+}
+
+#map>div.leaflet-control-container>div.leaflet-top.leaflet-right>div>section>div.leaflet-control-layers-base>label>div>span::before {
+    content: "";
+    display: inline-block;
+    height: .2rem;
+    width: .2rem;
+    margin-right: 0.625rem;
+    border: 0.5rem solid var(--lightGray);
+    border-radius: 50%;
+    transition: all 0.25s linear;
+}
+
+.leaflet-control-layers-toggle {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="%232563eb" viewBox="0 0 24 24" stroke="white"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>') !important;
+}
