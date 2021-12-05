@@ -18,7 +18,8 @@ export default {
         "ctm.about": "Established in 1982 Ośrodek Badawczo-Rozwojowy Centrum Techniki Morskiej JSC has extensive competences and experiences in designing, constructing, supplying and maintaining the integrated systems in the area of naval and civilian maritime technologies, and particularly as far as command, data analysis and processing, communication, naval vessels and underwater systems are concerned.",
         "nullIsland.about": "Java developers favorite island!",
         "more.info": "More info →",
-        "fail.data": "Failed to obtain data"
+        "fail.data": "Failed to obtain data",
+        "go.to": "Go to"
     },
     pl: {
         "lang.gb": "Angielski",
@@ -39,7 +40,8 @@ export default {
         "ctm.about": "Ośrodek Badawczo-Rozwojowy Centrum Techniki Morskiej S.A. posiada szerokie kompetencje oraz doświadczenie w projektowaniu, budowie, dostawie i utrzymaniu systemów z obszaru wojskowej techniki, ze szczególnym uwzględnieniem wojskowej techniki morskiej. W oparciu o nowoczesne zaplecze wytwórcze oraz badawczo-techniczne Ośrodek dostarcza i rozwija swoje wyroby dzięki prowadzonym w trybie ciągłym badaniom naukowym, pracom rozwojowym i wdrożeniowym.",
         "nullIsland.about": "Ulubiona wyspa Java developerów!",
         "more.info": "Więcej informacji →",
-        "fail.data": "Nie udało się załadować map"
+        "fail.data": "Nie udało się załadować map",
+        "go.to": "Przejdź do"
     },
     no: {
         "lang.gb": "Engelsk",
@@ -60,6 +62,7 @@ export default {
         "ctm.about": "Etablert i 1982 Ośrodek Badawczo-Rozwojowy Centrum Techniki Morskiej JSC har omfattende kompetanse og erfaring med å designe, konstruere, levere og vedlikeholde de integrerte systemene innen marine og sivile maritime teknologier, og spesielt så langt som kommando, dataanalyse og prosessering, kommunikasjon , marinefartøyer og undervannssystemer er bekymret.",
         "nullIsland.about": "Java-utvikleres favorittøy!",
         "more.info": "Mer informasjon →",
-        "fail.data": "Kunne ikke hente data"
+        "fail.data": "Kunne ikke hente data",
+        "go.to": "Gå til"
     }
 };
