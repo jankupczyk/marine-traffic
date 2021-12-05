@@ -11,9 +11,9 @@
 <main>
     <div class="grid place-content-center font-semibold text-base md:text-2xl lg:text-4xl text-blue-800" style="height: calc(100vh - 5rem);">
         <p>{$t("coming.soon")} 📡</p>
-        <a href="/ais">
+        <a href="/ais" use:link>
             Go to →
-            <span class="font-extrabold" use:link>AIS</span>
+            <span class="font-extrabold">AIS</span>
         </a>
     </div>
     <Wave />

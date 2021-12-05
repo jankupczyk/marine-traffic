@@ -1,7 +1,7 @@
 <script lang="ts">
     import { ROUTES } from "../../routing/routes";
     import { link } from "svelte-routing";
-import { t } from "../../i18n/i18n";
+    import { t } from "../../i18n/i18n";
 </script>
 
 <div class="flex flex-col items-center no-select">
