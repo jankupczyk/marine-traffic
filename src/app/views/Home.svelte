@@ -1,6 +1,6 @@
 <script lang="ts">
-    import ComingSoon from "../components/footer/ComingSoon.svelte";
     import Wave from "../components/footer/Wave.svelte";
+    import { link } from "svelte-routing";
     import { t } from "../i18n/i18n";
 </script>
 
@@ -9,6 +9,12 @@
 </svelte:head>
 
 <main>
-    <ComingSoon />
+    <div class="grid place-content-center font-semibold text-base md:text-2xl lg:text-4xl text-blue-800" style="height: calc(100vh - 5rem);">
+        <p>{$t("coming.soon")} 📡</p>
+        <a href="/ais">
+            Go to →
+            <span class="font-extrabold" use:link>AIS</span>
+        </a>
+    </div>
     <Wave />
 </main>
