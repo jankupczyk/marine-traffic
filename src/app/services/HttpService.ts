@@ -15,7 +15,7 @@ export class HttpService {
      * @returns 
      */
     async send<T>(method: HttpMethod, path: string, data: T, token: string): Promise<T> {
-        const init: RequestInit = { method, headers: {} };
+        const init: RequestInit = { method, mode: "no-cors", headers: {} };
 
         if (data) {
             init.headers['Content-Type'] = 'application/json';

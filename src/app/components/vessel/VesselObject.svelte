@@ -1,6 +1,4 @@
 <script lang="ts">
-import { onMount } from "svelte";
-
     import { t } from "../../i18n/i18n";
     import { Apis } from "../../services/Apis";
     import { HttpMethod } from "../../services/HttpMethod";
