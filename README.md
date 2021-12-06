@@ -96,7 +96,7 @@ and held by [Przemysław Bykowski](https://bykowski.pl/)**
 #### User position detection
 
 <a align="center" href="https://marine-traffic.netlify.app/">
-    <img align="center" src="https://github.com/jkbkupczyk/marine-traffic/blob/master/gifs/position.gif"></img>
+    <img align="center" src="https://github.com/jkbkupczyk/marine-traffic/blob/master/gifs/position.png"></img>
 </a>
 
 ### Built With
