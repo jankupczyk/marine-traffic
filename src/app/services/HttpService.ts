@@ -15,10 +15,10 @@ export class HttpService {
      * @returns 
      */
     async send<T>(method: HttpMethod, path: string, data: T, token: string): Promise<T> {
-        const init: RequestInit = { method, mode: "no-cors", headers: {} };
+        const init: RequestInit = { method, mode: "cors", headers: {} };
 
+        init.headers['Content-Type'] = 'application/json';
         if (data) {
-            init.headers['Content-Type'] = 'application/json';
             init.body = JSON.stringify(data);
         }
 
