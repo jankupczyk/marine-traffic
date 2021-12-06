@@ -54,7 +54,7 @@
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
-# [Video](https://youtu.be/Tr3lZXfPwG4)
+# [Marine Traffic - Presentation (Video)](https://youtu.be/Tr3lZXfPwG4)
 
 ## About The Project
 
