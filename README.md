@@ -118,12 +118,6 @@ and held by [Przemysław Bykowski](https://bykowski.pl/)**
 
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
-
-* installed [OpenJDK15](https://openjdk.java.net/projects/jdk/15/)
-* installed [Intellij](https://www.jetbrains.com/idea/) or [Eclipse](https://www.eclipse.org/)
-
-
 ### Installation
 
 This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
